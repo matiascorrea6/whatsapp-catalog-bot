@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-catalog-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that answers prices, stock, shipping and payments from a product catalog, and hands the chat to a person when needed.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
